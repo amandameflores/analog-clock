@@ -10,7 +10,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #333;
+    background-color: rgb(0, 46, 73);
     background-position: center;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -26,6 +26,7 @@ h1 {
     border: 5px solid #FFF;
     border-radius: 50%;
     background-color: rgba(0, 0, 0, 0.2);
+    background-image: url("assets/image/bg-salvadordali.png");
 }
 
 .riscos {
