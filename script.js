@@ -16,5 +16,6 @@ function fixZero(time) {
     return time < 10 ? `0${time}` : time;
 }
 
+sElement.style.transform = 'rotate(45deg)'; 
 
 setInterval(updateClock, 1000);
