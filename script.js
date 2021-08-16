@@ -16,7 +16,9 @@ function updateClock() {
     let hDeg = ((360 / 60) * hour) - 90;
 
     sElement.style.transform = `rotate(${sDeg}deg)`; 
-    sElement.style.transform = `rotate(${mDeg}deg)`; 
+    mElement.style.transform = `rotate(${mDeg}deg)`; 
+    hElement.style.transform = `rotate(${hDeg}deg)`; 
+
 
 }
 
